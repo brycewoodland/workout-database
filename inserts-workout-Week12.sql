@@ -393,6 +393,7 @@ VALUES
 (5, 23), -- User 5 also does Shoulder Press
 (6, 26); -- User 6 also does Farmers Walk
 
+** NEW INSERT ** 
 -- Bench Press ( Query Max-Weight Left Outer Join )
 INSERT INTO user_exercise (user_id, exercise_id) 
 VALUES 
@@ -474,6 +475,8 @@ VALUES
 (5, 'Advanced', 60),  -- Intense workout for advanced users
 (6, 'Advanced', 75);  -- High-intensity workout for advanced users
 
+
+** NEW INSERT ** 
 INSERT INTO workout (workout_id, difficulty_level, duration_minutes)
 VALUES 
 (7, 'Intermediate', 30),
@@ -494,6 +497,7 @@ VALUES
 (6, 11, 10, 3, 40), -- Workout 6: Bicep Curls, 10 reps, 3 sets, 40kg weight
 (6, 12, 8, 5, 50);  -- Workout 6: Squat Press, 8 reps, 5 sets, 50kg weight
 
+** NEW INSERT **
 -- Bench Press ( Query to find Max Weight - Left Outer Join )
 INSERT INTO workout_exercise (workout_id, exercise_id, reps, `set`, weight) 
 VALUES
